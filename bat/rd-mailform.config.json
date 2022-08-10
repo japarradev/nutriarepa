@@ -1,0 +1,8 @@
+{
+  "useSmtp": true,
+  "host": "smtp.gmail.com",
+  "port": 465,
+  "username": "nutriarepasangil@gmail.com",
+  "password": "nutriarepa123",
+  "recipientEmail": "nutriarepasangil@gmail.com"
+}

@@ -1,0 +1,17 @@
+[12-Jun-2021 17:58:45 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 19:54:04 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 19:57:42 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:06:21 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:11:05 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:12:47 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:14:00 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:17:01 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:18:04 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:19:17 UTC] PHP Warning:  file_get_contents(rd-mailform.config.json): failed to open stream: No such file or directory in /home/unutriajan/public_html/bat/rd-mailform.php on line 3
+[12-Jun-2021 20:19:17 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:19:30 UTC] PHP Warning:  file_get_contents(rd-mailform.config.json): failed to open stream: No such file or directory in /home/unutriajan/public_html/bat/rd-mailform.php on line 3
+[12-Jun-2021 20:19:30 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:19:56 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:36:07 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 20:42:21 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2021 21:04:54 Etc/UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/unutriajan/public_html/bat/phpmailer/PHPMailerAutoload.php on line 45
