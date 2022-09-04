@@ -1,4 +1,7 @@
-images/.*
+images
+*.png
+*.jpg
+*.gif
 bat/rd-mailform.config.json
 
 
