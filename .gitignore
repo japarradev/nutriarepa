@@ -1,4 +1,4 @@
-/images
-/bat/rd-mailform.config.json
+images/.*
+bat/rd-mailform.config.json
 
 
