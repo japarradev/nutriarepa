@@ -6496,7 +6496,7 @@ textarea.textarea-lg {
 	vertical-align: middle;
 	font-size: 18px;
 	line-height: 21px;
-	color: #33A452;
+	color: #fff;
 }
 
 .contacts-creative li+ li {
@@ -6613,7 +6613,7 @@ textarea.textarea-lg {
 }
 
 .footer-modern-2 {
-	background: #383d3f;
+	background: var(--blue-primary);
 }
 
 .footer-modern-2 .footer-modern-panel {
@@ -20414,4 +20414,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .box-icon-modern-svg [id*='SVGID'] {
 	--color-stop-1: #F58534;
 	--color-stop-2: #76aa6f;
+}
+
+.container-primary
+{
+	background-color: var(--blue-primary);
 }
