@@ -11254,7 +11254,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 100%;
 	height: 100%;
 	border-radius: 100%;
-	border: 5px solid rgba(60, 195, 193, 0.7);
+	border: 5px solid var(--blue-primary);
 	border-right: none;
 	border-top: none;
 	background-clip: padding;
