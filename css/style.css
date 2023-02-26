@@ -130,6 +130,7 @@
 .bg-brown-1 .rd-navbar-static .rd-nav-item.active .rd-nav-link,
 .bg-primary .rd-navbar-static .rd-nav-item.active .rd-nav-link {
 	color: #F58534;
+	
 }
 
 .context-dark .rd-navbar-static .rd-nav-link,
@@ -1479,7 +1480,7 @@ a[href*='mailto'] {
 .bg-gray-3 .contacts-classic a:hover,
 .bg-brown-1 .contacts-classic a:hover,
 .bg-primary .contacts-classic a:hover {
-	color: #F58534;
+	color: #fff;
 }
 
 .box-comment {
@@ -6148,6 +6149,7 @@ textarea.textarea-lg {
 .breadcrumbs-custom-text {
 	font-weight: 400;
 	letter-spacing: .025em;
+
 }
 
 .breadcrumbs-custom-footer {
@@ -6230,8 +6232,12 @@ textarea.textarea-lg {
 		padding: 100px 0;
 	}
 	*+ .breadcrumbs-custom-text {
-		margin-top: 30px;
+		margin-top: 20px;
+		font-size: 25px;
+
+
 	}
+	
 }
 
 .ie-10 .breadcrumbs-custom-body,
@@ -9210,7 +9216,7 @@ html.boxed body {
 }
 
 .text-transform-capitalize {
-	text-transform: capitalize;
+	text-transform: initial;
 }
 
 .font-family-sans-serif {
@@ -19777,6 +19783,65 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	cursor: pointer;
 }
 
+.icon-bar-noAds
+{
+	display: flex;
+
+
+	
+}
+
+.icon-bar-noAds figure
+{
+	margin-top: 10px;
+	width: 50px;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.icon-bar-noAds figcaption
+{
+	
+    text-align: center;
+	font-size: 7px;
+	margin-top: 2px;
+}
+.icon-bar-noAds .round
+{
+	border-radius: 50%;
+	border: 2px solid;
+	padding: 5px;
+	
+	width: 40px;
+	height: 40px;
+	
+	padding: 5px;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.icon-bar-noAds .vegan
+{
+	fill: var(--green-dark);
+}
+.icon-bar-noAds .icon-noads
+{
+	
+	
+	
+	background: 
+         
+         linear-gradient(to top right,
+             rgba(0,0,0,0) 0%,
+             rgba(0,0,0,0) calc(50% - 1px),
+             rgba(0,0,0,1) 50%,
+             rgba(0,0,0,0) calc(50% + 1px),
+             rgba(0,0,0,0) 100%);
+		transform-origin: left;
+}
+
 @media (min-width: 768px) {
 	.child-carousel .slick-slide {
 		max-width: 100%;
@@ -19908,6 +19973,30 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	.slick-product.slick-vertical {
 		margin-right: 25px;
 	}
+	
+	.icon-bar-noAds figure
+	{
+		width: 80px;
+		
+		
+	}
+	
+	.icon-bar-noAds figcaption
+	{
+		
+		
+		font-size: 12px;
+
+	}
+	
+	.icon-bar-noAds .round
+	{
+
+		width: 50px;
+		height: 50px;
+	}
+
+
 }
 
 @media (min-width: 1200px) {
