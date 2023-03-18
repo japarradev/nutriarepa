@@ -9312,7 +9312,7 @@ h3+ img {
 }
 
 *+ .button-wrap,
-*+ .button {
+*+ a .button, *+ .button {
 	margin-top: 30px;
 }
 
@@ -12861,7 +12861,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-fixed-element-3 {
-	right: 80px;
+	right: 30px;
 }
 
 .rd-navbar-fixed.rd-navbar--is-clone {
