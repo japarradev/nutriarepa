@@ -4036,8 +4036,8 @@ hr {
 .bg-brown-1 .button-default-outline:focus,
 .bg-primary .button-default-outline:focus {
 	color: #ffffff;
-	background-color: transparent;
-	border-color: #ffffff;
+	background-color: var(--blue-primary);
+	border-color: var(--blue-primary);
 }
 
 .context-dark .button-default-outline:hover,
@@ -4051,8 +4051,8 @@ hr {
 .bg-brown-1 .button-default-outline:active,
 .bg-primary .button-default-outline:active {
 	color: #ffffff;
-	background-color: var(--blue-primary);
-	border-color: var(--blue-primary);
+	background-color: var(--orange-dark);
+	border-color: var(--orange-dark);
 }
 
 .context-dark .button-default-outline.button-ujarak::before,
@@ -14865,8 +14865,8 @@ html.rd-navbar-fixed-linked .page {
 	min-height: 37.5vw;
 }
 
-.swiper-slider-1 .swiper-title-1 {
-	text-shadow: 1px 9px 16px rgba(0, 0, 0, 0.18);
+.swiper-title-1 {
+	text-shadow: 0 0 50px #000;
 }
 
 .swiper-slider-1 .swiper-title-2 {
@@ -15073,6 +15073,7 @@ html.rd-navbar-fixed-linked .page {
 .swiper-slider-4 .swiper-title-2 {
 	font-weight: 400;
 	letter-spacing: .075em;
+	text-shadow: 0 0 50px #000;
 }
 
 .swiper-slider-4 *+ .swiper-title-2 {
