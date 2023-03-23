@@ -1,11 +1,8 @@
-RewriteCond %{HTTPS} !on
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,QSA,L]
+RewriteEngine on
 
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.nutriarepa.co [NC]
-RewriteRule ^(.*)$ http://nutriarepa.co/$1 [L,R=301]
-
-ErrorDocument 404 /404.html
+# force ssl
+RewriteCond     %{SERVER_PORT} ^80$
+RewriteRule     ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php74” package as the default “PHP” programming language.
