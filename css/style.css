@@ -11312,7 +11312,7 @@ html:not(.lt-ie10) .not-animated {
 	position: fixed;
 	overflow: hidden;
 	text-align: center;
-	right: 15px;
+	left: 15px;
 	bottom: 15px;
 	width: 50px;
 	height: 50px;
@@ -11350,7 +11350,7 @@ html.tablet .ui-to-top {
 
 @media (min-width: 576px) {
 	.ui-to-top {
-		right: 40px;
+		left: 40px;
 		bottom: 40px;
 	}
 }
