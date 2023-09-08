@@ -66,8 +66,7 @@ const footerContent =
                 <li>
                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                         <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
-                        <div class="unit-body"><a href="https://g.page/nutriarepa?share">Calle 24 # 16 - 16<br>
-                            San Gil - Santander</a>
+                        <div class="unit-body"><a href="https://g.page/nutriarepa?share">Envíos a nivel nacional</a>
                         </div>
                     </div>
                 </li>
