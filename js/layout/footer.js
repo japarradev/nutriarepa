@@ -11,38 +11,38 @@ const footerContent =
                 <div class="row row-10 gutters-10" data-lightgallery="group">
                     <div class="col-4 col-sm-2 col-lg-4">
                         <!-- Thumbnail Minimal--><a class="thumbnail-minimal"
-                            href="images/footer-gallery/footer-gallery-01.jpg" data-lightgallery="item"><img 
-                            src="images/footer-gallery/footer-gallery-01-thumbnail.jpg"
+                            href="images/footer-gallery/footer-gallery-01.webp" data-lightgallery="item"><img 
+                            src="images/footer-gallery/footer-gallery-01-thumbnail.webp"
                             alt="Imagen nutriarepa footer slide 1" height="93" width="93" loading="lazy"></a>
                     </div>
                     <div class="col-4 col-sm-2 col-lg-4">
                         <!-- Thumbnail Minimal--><a class="thumbnail-minimal"
-                            href="images/footer-gallery/footer-gallery-02.jpg" data-lightgallery="item"><img
-                            src="images/footer-gallery/footer-gallery-02-thumbnail.jpg"
+                            href="images/footer-gallery/footer-gallery-02.webp" data-lightgallery="item"><img
+                            src="images/footer-gallery/footer-gallery-02-thumbnail.webp"
                             alt="Imagen nutriarepa footer slide 2" height="93" width="93" loading="lazy"></a>
                     </div>
                     <div class="col-4 col-sm-2 col-lg-4">
                         <!-- Thumbnail Minimal--><a class="thumbnail-minimal"
-                            href="images/footer-gallery/footer-gallery-03.jpg" data-lightgallery="item"><img
-                            src="images/footer-gallery/footer-gallery-03-thumbnail.jpg"
+                            href="images/footer-gallery/footer-gallery-03.webp" data-lightgallery="item"><img
+                            src="images/footer-gallery/footer-gallery-03-thumbnail.webp"
                             alt="Imagen nutriarepa footer slide 3" height="93" width="93" loading="lazy"></a>
                     </div>
                     <div class="col-4 col-sm-2 col-lg-4">
                         <!-- Thumbnail Minimal--><a class="thumbnail-minimal"
-                            href="images/footer-gallery/footer-gallery-04.jpg" data-lightgallery="item"><img
-                            src="images/footer-gallery/footer-gallery-04-thumbnail.jpg"
+                            href="images/footer-gallery/footer-gallery-04.webp" data-lightgallery="item"><img
+                            src="images/footer-gallery/footer-gallery-04-thumbnail.webp"
                             alt="Imagen nutriarepa footer slide 4" height="93" width="93" loading="lazy"></a>
                     </div>
                     <div class="col-4 col-sm-2 col-lg-4">
                         <!-- Thumbnail Minimal--><a class="thumbnail-minimal"
-                            href="images/footer-gallery/footer-gallery-05.jpg" data-lightgallery="item"><img
-                            src="images/footer-gallery/footer-gallery-05-thumbnail.jpg"
+                            href="images/footer-gallery/footer-gallery-05.webp" data-lightgallery="item"><img
+                            src="images/footer-gallery/footer-gallery-05-thumbnail.webp"
                             alt="Imagen nutriarepa footer slide 5" height="93" width="93" loading="lazy"></a>
                     </div>
                     <div class="col-4 col-sm-2 col-lg-4">
                         <!-- Thumbnail Minimal--><a class="thumbnail-minimal"
-                            href="images/footer-gallery/footer-gallery-06.jpg" data-lightgallery="item"><img
-                            src="images/footer-gallery/footer-gallery-06-thumbnail.jpg"
+                            href="images/footer-gallery/footer-gallery-06.webp" data-lightgallery="item"><img
+                            src="images/footer-gallery/footer-gallery-06-thumbnail.webp"
                             alt="Imagen nutriarepa footer slide 6" height="93" width="93" loading="lazy"></a>
                     </div>
                 </div>
