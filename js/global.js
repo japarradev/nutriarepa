@@ -20,6 +20,10 @@ export const headerMenu =[
         name:'PREGUNTAS FRECUENTES',
         url: 'preguntas-frecuentes.html'
     },
+    {
+        name:'CARRITO DE COMPRAS',
+        url: 'carrito.html'
+    },
     
 
 ]

@@ -12376,6 +12376,7 @@ html.tablet .ui-to-top {
 	position: relative;
 	display: inline-block;
 	padding: 0 12px 0 0;
+	margin-top: 14px;
 	font-size: 24px;
 	line-height: 1;
 	color: #151515;
@@ -13694,7 +13695,7 @@ html.rd-navbar-fixed-linked .page {
 .bg-gray-3 .rd-navbar-creative-2.rd-navbar-static.rd-navbar--is-clone,
 .bg-brown-1 .rd-navbar-creative-2.rd-navbar-static.rd-navbar--is-clone,
 .bg-primary .rd-navbar-creative-2.rd-navbar-static.rd-navbar--is-clone {
-	background: linear-gradient(to right, #296fb0 0%, #49bed7 100%);
+	background: linear-gradient(to right, var(--blue-primary) 0%, var(--blue-primary)  100%);
 }
 
 .context-dark .rd-navbar-creative-2.rd-navbar-static.rd-navbar--is-stuck::before,
