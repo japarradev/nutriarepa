@@ -2,7 +2,7 @@
 export const headerMenu =[
     {
         name:'INICIO',
-        url: ''
+        url: '/'
     },
     {
         name:'NUESTROS PRODUCTOS',
