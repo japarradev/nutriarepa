@@ -29,7 +29,7 @@ export function renderNav()
     <!-- RD Navbar Search-->
     <div class="rd-navbar-search rd-navbar-search-2">
      
-      <a class="rd-navbar-fixed-element-3 icon-shopping-cart  rd-navbar-basket fl-bigmug-line-shopping202"  href="carrito.html"><span>${products.length > 0 ? products.length : '' }</span></a>
+      <a class="rd-navbar-fixed-element-3 icon-shopping-cart  rd-navbar-basket fl-bigmug-line-shopping202"  href="carrito"><span>${products.length > 0 ? products.length : '' }</span></a>
     </div>
     <!-- RD Navbar Basket-->
     `

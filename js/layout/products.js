@@ -7,10 +7,10 @@ export function renderProducts()
         <!-- Product-->
         <article class="product wow fadeInRight">
            <div class="product-body">
-              <div class="product-figure"><a href="arepa-yuca-sin-queso.html"><img
+              <div class="product-figure"><a href="arepa-yuca-sin-queso"><img
                  src="images/productos/arepa-yuca/arepa-yuca-1.webp"  loading="lazy" alt="Arepa yuca" height="153" width="222"> </a>
               </div>
-              <h5 class="product-title"><a href="arepa-yuca-sin-queso.html">Arepa
+              <h5 class="product-title"><a href="arepa-yuca-sin-queso">Arepa
                  de Yuca<br>
                  </a>
               </h5>
@@ -26,10 +26,10 @@ export function renderProducts()
         <!-- Product-->
         <article class="product wow fadeInRight" data-wow-delay=".1s">
            <div class="product-body">
-              <div class="product-figure"><a href="arepa-yuca-queso.html"><img
+              <div class="product-figure"><a href="arepa-yuca-queso"><img
                  src="images/productos/arepa-yuca-queso/arepa-yuca-queso-1.webp" loading="lazy" alt="Arepa de queso" height="153"
                  width="222"></a> </div>
-              <h5 class="product-title"><a href="arepa-yuca-queso.html">Arepa
+              <h5 class="product-title"><a href="arepa-yuca-queso">Arepa
                  de Yuca <br>
                  </a>
               </h5>
@@ -45,10 +45,10 @@ export function renderProducts()
         <!-- Product-->
         <article class="product wow fadeInRight" data-wow-delay=".2s">
            <div class="product-body">
-              <div class="product-figure"><a href="arepa-yuca-semilla.html"><img
+              <div class="product-figure"><a href="arepa-yuca-semilla"><img
                  src="images/productos/arepa-yuca-semilla/arepa-yuca-semilla-1.webp" loading="lazy" alt="Arepa de semilla" height="153"
                  width="222"></a> </div>
-              <h5 class="product-title"><a href="arepa-yuca-semilla.html">Arepa
+              <h5 class="product-title"><a href="arepa-yuca-semilla">Arepa
                  de Yuca<br>
                  </a>
               </h5>
@@ -64,10 +64,10 @@ export function renderProducts()
         <!-- Product-->
         <article class="product wow fadeInLeft" data-wow-delay=".1s">
            <div class="product-body">
-              <div class="product-figure"><a href="arepa-platano.html"><img
+              <div class="product-figure"><a href="arepa-platano"><img
                  src="images/productos/arepa-platano/arepa-platano-1.webp" loading="lazy" alt="Arepa de platano" height="153" width="222"></a>
               </div>
-              <h5 class="product-title"><a href="arepa-platano.html">Arepa
+              <h5 class="product-title"><a href="arepa-platano">Arepa
                  de Plátano</a>
               </h5>
               <div class="product-price-wrap">
@@ -82,9 +82,9 @@ export function renderProducts()
         <!-- Product-->
         <article class="product wow fadeInRight" data-wow-delay=".3s">
            <div class="product-body">
-              <div class="product-figure"><a href="arepa-arroz.html"><img
+              <div class="product-figure"><a href="arepa-arroz"><img
                  src="images/productos/arepa-arroz/arepa-arroz-1.webp" loading="lazy" alt="Arepa de arroz" height="153" width="222"> </a></div>
-              <h5 class="product-title"><a href="arepa-arroz.html">Arepa
+              <h5 class="product-title"><a href="arepa-arroz">Arepa
                  de Arroz integral<br>
                  </a>
               </h5>
@@ -100,10 +100,10 @@ export function renderProducts()
         <!-- Product-->
         <article class="product wow fadeInRight" data-wow-delay=".3s">
            <div class="product-body">
-              <div class="product-figure"><a href="arepa-santandereana.html"><img
+              <div class="product-figure"><a href="arepa-santandereana"><img
                  src="images/productos/arepa-santandereana/arepa-santandereana1.webp" loading="lazy" alt="Arepa santandereana" height="153"
                  width="222"> </a></div>
-              <h5 class="product-title"><a href="arepa-santandereana.html">Arepa
+              <h5 class="product-title"><a href="arepa-santandereana">Arepa
                  Santandereana<br>
                  </a>
               </h5>
@@ -119,10 +119,10 @@ export function renderProducts()
         <!-- Product-->
         <article class="product wow fadeInRight" data-wow-delay=".3s">
            <div class="product-body">
-              <div class="product-figure"><a href="bolsa-ecologica.html"><img
+              <div class="product-figure"><a href="bolsa-ecologica"><img
                  src="images/productos/bolsa-ecologica/bolsa-ecologica-1.webp" loading="lazy" alt="Bolsa ecológica" height="153" width="222"> </a>
               </div>
-              <h5 class="product-title"><a href="bolsa-ecologica.html">Bolsa ecológica<br>
+              <h5 class="product-title"><a href="bolsa-ecologica">Bolsa ecológica<br>
                  </a>
               </h5>
               <div class="product-price-wrap">

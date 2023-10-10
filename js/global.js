@@ -2,27 +2,27 @@
 export const headerMenu =[
     {
         name:'INICIO',
-        url: 'index.html'
+        url: ''
     },
     {
         name:'NUESTROS PRODUCTOS',
-        url: 'nuestros-productos.html'
+        url: 'nuestros-productos'
     },
     {
         name:'PUNTO DE VENTA',
-        url: 'puntos-venta.html'
+        url: 'puntos-venta'
     },
     {
         name:'CONTÁCTENOS',
-        url: 'contactenos.html'
+        url: 'contactenos'
     },
     {
         name:'PREGUNTAS FRECUENTES',
-        url: 'preguntas-frecuentes.html'
+        url: 'preguntas-frecuentes'
     },
     {
         name:'CARRITO DE COMPRAS',
-        url: 'carrito.html'
+        url: 'carrito'
     },
     
 
