@@ -226,7 +226,7 @@
             message: "Estoy interesado en tus productos ... ",
             showPopup: true,
             showOnIE: false,
-            buttonImage: '<img src="/images/whatsapp.svg" />'
+            buttonImage: '<img alt ="botón de WhatsApp" src="/images/whatsapp.svg" />'
         });
     });
 

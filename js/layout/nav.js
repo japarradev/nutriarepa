@@ -13,7 +13,7 @@ export function renderNav()
     const currentPage = window.location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
     const nav = document.querySelector('.rd-navbar-nav-wrap');
     const cart = document.querySelector('.rd-navbar-aside-element');
-    const menu = headerMenu.map(item => {
+    const menu = '<ul>' + headerMenu.map(item => {
         if(item.url === currentPage)
         {
             return `<li class="rd-nav-item active"><a class="rd-nav-link" href="${item.url}">${item.name}</a></li>`
@@ -22,7 +22,7 @@ export function renderNav()
         {
             return `<li class="rd-nav-item"><a class="rd-nav-link" href="${item.url}">${item.name}</a></li>`
         }
-    });
+    }).join('') + '</ul>';
 
     const shoppingCart = 
     `
@@ -33,7 +33,7 @@ export function renderNav()
     </div>
     <!-- RD Navbar Basket-->
     `
-    const navContent =  menu.join('')
+    const navContent =  menu
         
 
     nav.innerHTML = navContent;
