@@ -141,9 +141,9 @@ try {
 
     die('MF000');
 } catch (phpmailerException $e) {
-    print_r($e);
+    error_log($e, 0, 'nutriarepa.log');
     die('MF254');
 } catch (Exception $e) {
-    print_r($e);
+    error_log($e, 0, 'nutriarepa.log');
     die('MF255');
 }
