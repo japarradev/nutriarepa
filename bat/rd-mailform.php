@@ -141,7 +141,9 @@ try {
 
     die('MF000');
 } catch (phpmailerException $e) {
+    throw new Exception($e)
     die('MF254');
 } catch (Exception $e) {
+    throw new Exception($e)
     die('MF255');
 }
