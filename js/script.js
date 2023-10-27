@@ -221,7 +221,7 @@
 
 	$(function () {
         $('#myButton').floatingWhatsApp({
-            phone: '573123213282',
+            phone: '573022649964',
             popupMessage: 'Hola!! Soy Sofia y es un gusto saludarte 😊 No dudes en preguntarme',
             message: "Estoy interesado en tus productos ... ",
             showPopup: true,

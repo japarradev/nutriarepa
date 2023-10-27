@@ -290,7 +290,7 @@ if(products.length > 0)
             </div>
          </section>`
          
-         const url = `https://api.whatsapp.com/send?phone=+573123213282&text=Hola%21%F0%9F%91%8B+%2ANutriarepa%2A+me+encantaria+estos+productos%0A%0A%2AOrden+de+compra%2A%0ANombre%3A${encodeURIComponent(name.value) + ' ' + encodeURIComponent(lastname.value)}%0ADirecci%C3%B3n%3A${encodeURIComponent(address.value)}%0ABarrio+y%2Fo+Conjuto%3A${encodeURIComponent(neighborhood.value)}%0ACiudad%3A${encodeURIComponent(city.value)}%0ACorreo%3A${encodeURIComponent(Email.value)}%0ATel%C3%A9fono%3A${encodeURIComponent(phone.value)}%0AFE%3A${encodeURIComponent(billRequired.value)}%0A%0A%F0%9F%8C%9F%2APedido%2A%0A${productItems}%0A%2ATotal%2A%0A${encodeURIComponent(convertPesos(total))}%0A%0A%2A%C2%BFMedios+de+pago%3F%2A%0A%2A%C2%A1Gracias%C2%A1%2A`
+         const url = `https://api.whatsapp.com/send?phone=+573022649964&text=Hola%21%F0%9F%91%8B+%2ANutriarepa%2A+me+encantaria+estos+productos%0A%0A%2AOrden+de+compra%2A%0ANombre%3A${encodeURIComponent(name.value) + ' ' + encodeURIComponent(lastname.value)}%0ADirecci%C3%B3n%3A${encodeURIComponent(address.value)}%0ABarrio+y%2Fo+Conjuto%3A${encodeURIComponent(neighborhood.value)}%0ACiudad%3A${encodeURIComponent(city.value)}%0ACorreo%3A${encodeURIComponent(Email.value)}%0ATel%C3%A9fono%3A${encodeURIComponent(phone.value)}%0AFE%3A${encodeURIComponent(billRequired.value)}%0A%0A%F0%9F%8C%9F%2APedido%2A%0A${productItems}%0A%2ATotal%2A%0A${encodeURIComponent(convertPesos(total))}%0A%0A%2A%C2%BFMedios+de+pago%3F%2A%0A%2A%C2%A1Gracias%C2%A1%2A`
 
          const message = 
          
