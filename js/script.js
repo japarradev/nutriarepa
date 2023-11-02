@@ -219,16 +219,16 @@
 	});
 	//Whatsapp button
 
-	$(function () {
-        $('#myButton').floatingWhatsApp({
-            phone: '573022649964',
-            popupMessage: 'Hola!! Soy Sofia y es un gusto saludarte 😊 No dudes en preguntarme',
-            message: "Estoy interesado en tus productos ... ",
-            showPopup: true,
-            showOnIE: false,
-            buttonImage: '<img alt ="botón de WhatsApp" src="/images/whatsapp.svg" />'
-        });
-    });
+	// $(function () {
+    //     $('#myButton').floatingWhatsApp({
+    //         phone: '573022649964',
+    //         popupMessage: 'Hola!! Soy Sofia y es un gusto saludarte 😊 No dudes en preguntarme',
+    //         message: "Estoy interesado en tus productos ... ",
+    //         showPopup: true,
+    //         showOnIE: false,
+    //         buttonImage: '<img alt ="botón de WhatsApp" src="/images/whatsapp.svg" />'
+    //     });
+    // });
 
 	// Initialize scripts that require a finished document
 	$(function () {
