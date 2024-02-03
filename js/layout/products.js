@@ -3,25 +3,7 @@ export function renderProducts()
     const products = document.querySelector('#products');
     if(products)
     {
-        products.innerHTML = `<div class="col-sm-6 col-md-4 col-lg-3">
-        <!-- Product-->
-        <article class="product wow fadeInRight">
-           <div class="product-body">
-              <div class="product-figure"><a href="arepa-yuca-sin-queso"><img
-                 src="images/productos/arepa-yuca/arepa-yuca-1.webp"  loading="lazy" alt="Arepa yuca" > </a>
-              </div>
-              <h5 class="product-title"><a href="arepa-yuca-sin-queso">Arepa
-                 de Yuca<br>
-                 </a>
-              </h5>
-              <div class="product-price-wrap">
-                 <div class="product-price">Original</div>
-              </div>
-           </div>
-           <div class="product-button-wrap">
-           </div>
-        </article>
-     </div>
+        products.innerHTML = `
      <div class="col-sm-6 col-md-4 col-lg-3">
         <!-- Product-->
         <article class="product wow fadeInRight" data-wow-delay=".1s">
@@ -112,24 +94,7 @@ export function renderProducts()
            </div>
         </article>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3">
-        <!-- Product-->
-        <article class="product wow fadeInRight" data-wow-delay=".3s">
-           <div class="product-body">
-              <div class="product-figure"><a href="bolsa-ecologica"><img
-                 src="images/productos/bolsa-ecologica/bolsa-ecologica-1.webp" loading="lazy" alt="Bolsa ecológica" > </a>
-              </div>
-              <h5 class="product-title"><a href="bolsa-ecologica">Bolsa ecológica<br>
-                 </a>
-              </h5>
-              <div class="product-price-wrap">
-                 <div class="product-price">100% degradable</div>
-              </div>
-           </div>
-           <div class="product-button-wrap">
-           </div>
-        </article>
-     </div>
+
      `
     } 
 }
