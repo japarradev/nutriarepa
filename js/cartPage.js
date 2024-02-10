@@ -108,20 +108,29 @@ if(products.length > 0)
                             <label class="form-label" for="checkout-phone-1">Teléfono</label>
                          </div>
                       </div>
+                      
                       <div class="col-sm-12">
                          <div class="form-wrap">
                   
                            <select class ="form-input" name="bill-required" id="checkout-bill-required"  data-constraints="@Required">
                               <option value="">Factura electrónica</option>
                               <option value="Si">Si requiero factura electrónica</option>
-                              <option value="Si">No requiero factura electrónica</option>
+                              <option value="No">No requiero factura electrónica</option>
                            </select>
                         
                          </div>
                       </div>
-                      <div class="cart-inline-footer">
+                      
+                      <div class="col-12">
+                        <div class="form-wrap hide-stepper">
+                           <input class="form-input" id="checkout-id" type="number" name="identification" />
+                           <label class="form-label" for="checkout-id">Documento</label>
+                        </div>
+                      </div>
+
+                      <div>
                         <div class="group-sm">
-                        <button class="button button-primary">Realizar pedido</button>
+                           <button class="button button-primary">Realizar pedido</button>
                         </div>
                       </div>
                       
@@ -186,7 +195,9 @@ if(products.length > 0)
       const Email          = document.querySelector('#checkout-email-1');
       const phone          = document.querySelector('#checkout-phone-1');
       const billRequired   = document.querySelector('#checkout-bill-required');
-      
+      const identification = document.querySelector('#checkout-id');
+
+
       let validateForm = true;
 
       if(name.value === '')
@@ -254,6 +265,15 @@ if(products.length > 0)
             'error'
           )
       }
+      if((identification.value === '' || identification.value === '0')   && billRequired.value === 'Si' && validateForm ) 
+      {
+         validateForm = false;
+         Swal.fire(
+            'Error!',
+            'Es necesario el documento de identidad cuando se requiere factura electrónica',
+            'error'
+          )
+      }
 
       if(validateForm)
       {
@@ -290,7 +310,7 @@ if(products.length > 0)
             </div>
          </section>`
          
-         const url = `https://api.whatsapp.com/send?phone=+573022649964&text=Hola%21%F0%9F%91%8B+%2ANutriarepa%2A+me+encantaria+estos+productos%0A%0A%2AOrden+de+compra%2A%0ANombre%3A${encodeURIComponent(name.value) + ' ' + encodeURIComponent(lastname.value)}%0ADirecci%C3%B3n%3A${encodeURIComponent(address.value)}%0ABarrio+y%2Fo+Conjuto%3A${encodeURIComponent(neighborhood.value)}%0ACiudad%3A${encodeURIComponent(city.value)}%0ACorreo%3A${encodeURIComponent(Email.value)}%0ATel%C3%A9fono%3A${encodeURIComponent(phone.value)}%0AFE%3A${encodeURIComponent(billRequired.value)}%0A%0A%F0%9F%8C%9F%2APedido%2A%0A${productItems}%0A%2ATotal%2A%0A${encodeURIComponent(convertPesos(total))}%0A%0A%2A%C2%BFMedios+de+pago%3F%2A%0A%2A%C2%A1Gracias%C2%A1%2A`
+         const url = `https://api.whatsapp.com/send?phone=+573022649964&text=Hola%21%F0%9F%91%8B+%2ANutriarepa%2A+me+encantaria+estos+productos%0A%0A%2AOrden+de+compra%2A%0ANombre%3A${encodeURIComponent(name.value) + ' ' + encodeURIComponent(lastname.value)}%0ADirecci%C3%B3n%3A${encodeURIComponent(address.value)}%0ABarrio+y%2Fo+Conjuto%3A${encodeURIComponent(neighborhood.value)}%0ACiudad%3A${encodeURIComponent(city.value)}%0ACorreo%3A${encodeURIComponent(Email.value)}%0ATel%C3%A9fono%3A${encodeURIComponent(phone.value)}%0AFE%3A${encodeURIComponent(billRequired.value)}%0ADocumento%3A${encodeURIComponent(identification.value)}%0A%0A%F0%9F%8C%9F%2APedido%2A%0A${productItems}%0A%2ATotal%2A%0A${encodeURIComponent(convertPesos(total))}%0A%0A%2A%C2%BFMedios+de+pago%3F%2A%0A%2A%C2%A1Gracias%C2%A1%2A`
 
          const message = 
          
