@@ -285,6 +285,10 @@ if(products.length > 0)
             return `${item.productQuantity}+${item.productName}%0A`
          }).join('')
 
+         const pedido =  products.map(item => {
+            return `${item.productName} ${item.productQuantity}`
+         }).join(',')
+
         
         
 
@@ -312,10 +316,31 @@ if(products.length > 0)
          
          const url = `https://api.whatsapp.com/send?phone=+573022649964&text=Hola%21%F0%9F%91%8B+%2ANutriarepa%2A+me+encantaria+estos+productos%0A%0A%2AOrden+de+compra%2A%0ANombre%3A${encodeURIComponent(name.value) + ' ' + encodeURIComponent(lastname.value)}%0ADirecci%C3%B3n%3A${encodeURIComponent(address.value)}%0ABarrio+y%2Fo+Conjuto%3A${encodeURIComponent(neighborhood.value)}%0ACiudad%3A${encodeURIComponent(city.value)}%0ACorreo%3A${encodeURIComponent(Email.value)}%0ATel%C3%A9fono%3A${encodeURIComponent(phone.value)}%0AFE%3A${encodeURIComponent(billRequired.value)}%0ADocumento%3A${encodeURIComponent(identification.value)}%0A%0A%F0%9F%8C%9F%2APedido%2A%0A${productItems}%0A%2ATotal%2A%0A${encodeURIComponent(convertPesos(total))}%0A%0A%2A%C2%BFMedios+de+pago%3F%2A%0A%2A%C2%A1Gracias%C2%A1%2A`
 
-         const message = 
+         // datos mandados con la solicutud POST
+         let input = 
+         {
+            name           : name.value,
+            lastname       : lastname.value, 
+            email          : Email.value,
+            phone          : phone.value,
+            city           : city.value,
+            neighborhood   : neighborhood.value,
+            address        : address.value,
+            fe             : billRequired.value,
+            identification : identification.value,
+            products       : pedido
+         }
          
+         fetch('https://cors-anywhere.herokuapp.com/http://153.92.214.234:8080/nutriarepa/api/v1/newOrder', {
+            method: "POST",
+            body: JSON.stringify(input),
+            headers: {"Content-type": "application/json; charset=UTF-8"}
+         })
+         .then(response => response.json()) 
+         .then(json => console.log(json));
+        
 
-         window.open(url, '_blank')
+         window.open(url, '_blank');
       }
       
       

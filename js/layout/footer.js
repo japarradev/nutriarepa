@@ -73,7 +73,7 @@ const footerContent =
                 <li>
                     <div class="unit unit-spacing-sm flex-column flex-md-row">
                         <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
-                        <div class="unit-body"><a href="tel:+573123213282">+57 (312) 321 32 82</a></div>
+                        <div class="unit-body"><a href="tel:+573022649964">+57 (302) 264 9964</a></div>
                     </div>
                 </li>
                 <li>
@@ -89,7 +89,7 @@ const footerContent =
                 </li>
                 <li><a class="icon mdi mdi-instagram icon-xxs" href="https://www.instagram.com/nutriarepa.co/"></a><br>
                 </li>
-                <li><a class="icon mdi mdi-whatsapp icon-xxs" href="https://wa.me/573123213282/"></a><br>
+                <li><a class="icon mdi mdi-whatsapp icon-xxs" href="https://wa.me/573022649964/"></a><br>
                 </li>
                 </ul>
             </div>
