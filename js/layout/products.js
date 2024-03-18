@@ -40,42 +40,7 @@ export function renderProducts()
            </div>
         </article>
      </div>
-     <div class="col-sm-6 col-md-4 col-lg-3">
-        <!-- Product-->
-        <article class="product wow fadeInLeft" data-wow-delay=".1s">
-           <div class="product-body">
-              <div class="product-figure"><a href="arepa-platano"><img
-                 src="images/productos/arepa-platano/arepa-platano-1.webp" loading="lazy" alt="Arepa de platano" ></a>
-              </div>
-              <h5 class="product-title"><a href="arepa-platano">Arepa
-                 de Plátano</a>
-              </h5>
-              <div class="product-price-wrap">
-                 <div class="product-price">Rellena de queso</div>
-              </div>
-           </div>
-           <div class="product-button-wrap">
-           </div>
-        </article>
-     </div>
-     <div class="col-sm-6 col-md-4 col-lg-3">
-        <!-- Product-->
-        <article class="product wow fadeInRight" data-wow-delay=".3s">
-           <div class="product-body">
-              <div class="product-figure"><a href="arepa-arroz"><img
-                 src="images/productos/arepa-arroz/arepa-arroz-1.webp" loading="lazy" alt="Arepa de arroz" > </a></div>
-              <h5 class="product-title"><a href="arepa-arroz">Arepa
-                 de Arroz integral<br>
-                 </a>
-              </h5>
-              <div class="product-price-wrap">
-                 <div class="product-price">Con Chía</div>
-              </div>
-           </div>
-           <div class="product-button-wrap">
-           </div>
-        </article>
-     </div>
+   
      <div class="col-sm-6 col-md-4 col-lg-3">
         <!-- Product-->
         <article class="product wow fadeInRight" data-wow-delay=".3s">

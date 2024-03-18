@@ -51,13 +51,9 @@ const footerContent =
             <div class="col-sm-6 col-md-7 col-lg-5 wow fadeInRight" data-wow-delay=".1s">
                 <h5 class="footer-modern-title">Nuestros Productos</h5>
                 <ul class="footer-modern-list footer-modern-list-2 d-sm-inline-block d-md-block">
-                <li><a href="arepa-yuca-sin-queso">Arepa de yuca Original</a></li>
                 <li><a href="arepa-yuca-queso">Arepa de yuca queso</a></li>
                 <li><a href="arepa-yuca-semilla">Arepa de yuca semillas</a></li>
-                <li><a href="arepa-platano">Arepa de plátano</a></li>
-                <li><a href="arepa-arroz">Arepa de arroz</a></li>
                 <li><a href="arepa-santandereana">Arepa Santandereana</a></li>
-                <li><a href="bolsa-ecologica">Bolsa ecológica</a></li>
                 </ul>
             </div>
             <div class="col-sm-6 col-md-5 col-lg-4 col-xl-3 wow fadeInRight" data-wow-delay=".2s">
